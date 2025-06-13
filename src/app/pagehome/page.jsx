@@ -89,6 +89,12 @@ const MovieList = () => {
               title: 'The Wolf of Wall Street',
               imageUrl: '/wallstreet.jpg',
               tags: ['drama', 'dark', 'comedy', 'just plain bad', 'painfully bad', '2000s', 'ironic']
+            },
+            {
+              id: 8,
+              title: "Wayne's World",
+              imageUrl: '/waynesworld.jpg',
+              tags: ['comedy', 'cult classic', '90s', 'ironic', 'lighthearted']
             }
           ];
 
@@ -127,9 +133,9 @@ const MovieList = () => {
         };
       
     return(
-      <div className="min-h-screen flex flex-col bg--50">
+      <div className="min-h-screen flex flex-col">
           <main className="flex-grow container mx-auto px-4 py-8">
-            <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">Give Me A Bad Movie</h1>
+            <h1 className="text-3xl font-bold text-center mb-8 text-gray-900">Give Me A Bad Movie</h1>
         
         {/* Search Bar */}
         <div className="relative mb-6 max-w-md mx-auto">

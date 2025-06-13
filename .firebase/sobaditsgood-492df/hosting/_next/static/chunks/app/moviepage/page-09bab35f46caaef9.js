@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[370],{2419:(e,s,l)=>{Promise.resolve().then(l.bind(l,2684))},2684:(e,s,l)=>{"use strict";l.r(s),l.d(s,{default:()=>r});var a=l(5155);l(2115);let r=()=>(0,a.jsx)("div",{className:"min-h-screen flex flex-col bg-emerald-100"})}},e=>{var s=s=>e(e.s=s);e.O(0,[441,517,358],()=>s(2419)),_N_E=e.O()}]);
